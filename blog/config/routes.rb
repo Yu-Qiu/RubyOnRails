@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   #create resource, run "bin/rake routes" to define routes for restful actions
-  resources :articles
+  resources :articles do
+    resources :comments
+  end
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
