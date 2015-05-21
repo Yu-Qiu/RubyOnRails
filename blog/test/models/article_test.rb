@@ -1,3 +1,5 @@
+# http://guides.rubyonrails.org/testing.html
+
 require 'test_helper'
 
 class ArticleTest < ActiveSupport::TestCase

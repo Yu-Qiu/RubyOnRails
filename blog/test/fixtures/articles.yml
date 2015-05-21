@@ -7,3 +7,9 @@ one:
 two:
   title: MyString
   text: MyText
+
+<% 1.upto(2) do |i| %>
+fix_<%= i %>:
+  title: <%= i %>
+  text: guy_<%= 1 %>
+<% end %>
