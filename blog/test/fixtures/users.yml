@@ -1,2 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+#after adding 'add index to users email', all tests fail.
+#je vire fixtures, ca devient green.
+# "due to a violation of the uniqueness constraint in the fixtures, which contain sample data for the test database."
+
+#TODO : re-add fixtures for the tests to pass
+
+#one:
+#  name: MyString
+#  email: MyString
+
+#two:
+#  name: MyString
+#  email: MyString
