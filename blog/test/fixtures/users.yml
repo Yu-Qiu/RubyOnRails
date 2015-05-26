@@ -13,3 +13,7 @@
 #two:
 #  name: MyString
 #  email: MyString
+
+administrator:
+    email: admin@example.com
+    roles: admin
